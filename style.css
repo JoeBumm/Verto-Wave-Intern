@@ -1,0 +1,105 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2vw;
+  padding: 2vh 15px;
+}
+
+.nav img {
+  max-height: 100%;
+  max-width: 3.5vw;
+  margin-left: 20px;
+}
+
+.nav h1 {
+  font-size: 3vw;
+  margin: 0;
+}
+
+.tools ul {
+  display: flex;
+  gap: 1.5vw;
+}
+
+.undernav {
+  display: flex;
+  align-items: center;
+  /* background-color: rgb(250, 221, 169); */
+  margin: 5vh 0;
+}
+
+.undernav img {
+  width: 50vw;
+  margin-right: 1vw;
+  border: 2px solid #333;
+  border-radius: 20px;
+  transition: transform 0.3s ease, border-radius 0.3s ease;
+  height: auto;
+  display: block;
+}
+
+.undernav img:hover {
+  transform: scale(1.01);
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: clamp(1vw, 3vw, 2rem);
+  margin: 1.5vw;
+  font-style: italic;
+  transition: transform 0.3s ease;
+  height: auto;
+  display: block;
+}
+
+p:hover {
+  transform: scale(1.03);
+}
+
+.quote {
+  display: flex;
+  background-color: rgb(215, 215, 215);
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.quote p {
+  font-size: 2.5vw;
+}
+
+.gameBar .gameContainer {
+  padding: 30vh 0;
+  display: flex;
+  background-color: #abcdff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gameContainer img {
+  display: flex;
+}
+
+.gameSelector {
+  display: flex;
+  margin-top: 6vh;
+}
+
+.gameSelector img {
+  margin: 0 3vw;
+}
+
+.gameSelector img:hover {
+  color: aqua;
+  font-size: 20px;
+}
